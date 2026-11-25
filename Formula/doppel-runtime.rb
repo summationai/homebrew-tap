@@ -2,27 +2,27 @@
 class DoppelRuntime < Formula
   desc "Run a Doppelwerk review runner in Docker"
   homepage "https://github.com/summationai/doppel-runtime"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
       url "https://github.com/summationai/doppel-runtime/releases/download/v#{version}/doppel-runtime_darwin_arm64"
-      sha256 "1996f007717757cd2af914184174b4dcef57f84efcf5684c31c81b45693fde41"
+      sha256 "99389e0727be630799a20399ff3c38e6588d3756397b48102bd2f57013bb434b"
     end
     on_intel do
       url "https://github.com/summationai/doppel-runtime/releases/download/v#{version}/doppel-runtime_darwin_amd64"
-      sha256 "ef7682ca785cc8de2100b97e558c5ad9f642531f55d3a95765f4ad6583bc22b6"
+      sha256 "123fac5748917dbf997a3559c845983ec1cbffb4f4de03afd25117583a416848"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/summationai/doppel-runtime/releases/download/v#{version}/doppel-runtime_linux_arm64"
-      sha256 "01af74a40f72bd32a822eddb685394f8d5e835d30e90b8d556b435a7e60f89ba"
+      sha256 "60ba19ee5d1f05f38d455d8c96fef0d1766373b9f545efa2ce0722653f793809"
     end
     on_intel do
       url "https://github.com/summationai/doppel-runtime/releases/download/v#{version}/doppel-runtime_linux_amd64"
-      sha256 "cb4e7570e30a950b5806c6382998908c78248df876461aa8313a5b9d97d8b2ca"
+      sha256 "4e64c48c2557c23b8731a46d486de5030af1caf74d1caecb97792b676f1ebf23"
     end
   end
 
